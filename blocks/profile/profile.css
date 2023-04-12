@@ -3,3 +3,19 @@
   margin-top: 40px;
   align-items: center;
 }
+
+@media screen and (max-width: 1120px) {
+  .profile {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 51px;
+  flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 610px) {
+  .profile {
+  margin-top: 38.25px;
+  }
+}

@@ -3,3 +3,11 @@
   border-radius: 50%;
   margin-right: 30px;
 }
+
+@media screen and (max-width: 1120px) {
+  .profile__image {
+  margin: 0;
+  }
+}
+
+
