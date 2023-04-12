@@ -1,0 +1,6 @@
+.elements__item-container {
+  display: flex;
+  align-items: center;
+  padding: 25px 15px 31px 21px;
+  height: 23px;
+}
