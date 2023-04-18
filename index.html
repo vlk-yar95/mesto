@@ -67,9 +67,24 @@
         </div>
       </articale>
     </section>
+    <!--окно(попап) редактирование профиля-->
+<div class="popup popup_edit-profile">
+  <div class="popup__container">
+    <button class="popup__button-close" aria-label="закрыть" type="button"></button>
+    <h2 class="popup__title">Редактировать профиль</h2>
+    <form class="popup__form popup__form_type_edit" name="form-profile">
+      <input type="text" name="username" class="popup__input popup__input_type_name" required placeholder="Ваше имя">
+      <input type="text" name="job" class="popup__input popup__input_type_about" required placeholder="Вид деятельности">
+      <button type="submit" value="Сохранить" class="popup__button-submit" aria-label="Сохранить">Сохранить</button>
+    </form>"
+  </div>
+</div>
   </main>
   <footer class="footer">
     <p class="footer__info">© 2020 Mesto Russia</p>
   </footer>
+  <script src="./script/index.js"></script>
 </body>
 </html>
+
+

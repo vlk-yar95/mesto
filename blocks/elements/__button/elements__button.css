@@ -9,3 +9,8 @@
   border: none;
   background-color: transparent;
 }
+
+.elements__button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}

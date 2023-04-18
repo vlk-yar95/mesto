@@ -2,3 +2,8 @@
   padding: 0;
   background-color: transparent;
 }
+
+.profile__button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
