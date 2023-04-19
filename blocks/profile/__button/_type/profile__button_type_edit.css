@@ -4,6 +4,11 @@
   height: 24px;
   border: 1px solid #fff;
   margin-left: 18px;
-  background-repeat: no-repeat;
-  background-position: center;
+}
+
+@media screen and (max-width: 610px) {
+  .profile__button_type_edit {
+    width: 18px;
+    height: 18px;
+  }
 }

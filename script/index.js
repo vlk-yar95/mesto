@@ -41,4 +41,4 @@ buttonClosePopupEdit.addEventListener('click', () => {
 // Взаимодействие с вводом данных о пользователе
 
 popupEditeProfileForm.addEventListener('submit', handleEditProfileFormSubmit);
-popupAddCardForm.addEventListener('submit', handleCardSubmit);
+

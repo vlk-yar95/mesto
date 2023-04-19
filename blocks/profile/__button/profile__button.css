@@ -1,6 +1,8 @@
 .profile__button {
   padding: 0;
   background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .profile__button:hover {

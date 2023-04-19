@@ -12,12 +12,14 @@
   top: -40px;
   right: -40px;
   background-color: transparent;
+  background-size: contain;
 }
 
 @media screen and (max-width:610px) {
   .popup__button-close {
     width: 20px;
     height: 20px;
+    right: 0;
   }
 }
 
