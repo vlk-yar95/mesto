@@ -9,12 +9,21 @@
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
+  display: block;
+}
+
+@media screen and (max-width: 1120px) {
+  .profile__title {
+    font-size: 32px;
+    padding: 15px 0 10px;
+  }
 }
 
 @media screen and (max-width: 610px) {
   .profile__title {
+    max-width: 189px;
     font-size: 27px;
     line-height: 33px;
-    margin-bottom: 14px;
+    padding: 23px 0 0;
   }
 }

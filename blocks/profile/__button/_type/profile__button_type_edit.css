@@ -10,5 +10,7 @@
   .profile__button_type_edit {
     width: 18px;
     height: 18px;
+    background-size: 7.5px 7.5px;
+    margin-left: 10px;
   }
 }
